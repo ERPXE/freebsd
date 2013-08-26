@@ -1,0 +1,14 @@
+MENU BEGIN FREEBSD
+MENU LABEL ^FreeBSD 9.0
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/freebsd/freebsd.png
+
+MENU INCLUDE er/plugins/freebsd/i386/freebsdmain.menu
+MENU INCLUDE er/plugins/freebsd/x86_64/freebsdmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

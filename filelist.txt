@@ -1,0 +1,14 @@
+.:
+filelist.txt
+freebsd.menu
+freebsd.png
+i386
+x86_64
+
+./i386:
+freebsdmain.menu
+mfsbsd9x32.hd
+
+./x86_64:
+freebsdmain.menu
+mfsbsd9x64.hd
