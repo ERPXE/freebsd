@@ -1,6 +1,6 @@
 LABEL FREEBSD32
 MENU LABEL ^FreeBSD - i386
-KERNEL pxelinux.cfg/roms/memdisk
+KERNEL boot/isolinux/memdisk
 INITRD er/plugins/freebsd/i386/mfsbsd9x32.hd
 APPEND harddisk raw
 TEXT HELP
